@@ -59,7 +59,7 @@ VALUES ('Purchasing', 30);
 SELECT * FROM department;
 
 INSERT INTO department VALUES (40, 'IT'),
-							   (50, 'Security');
+			(50, 'Security');
  
  INSERT INTO Job (JobID, JobTitle)
  VALUES ('IT_PROG', 'Programer'),
@@ -80,7 +80,7 @@ SELECT * FROM employees;
 SELECT * FROM department;
 
 INSERT INTO employees (EmpID, Name, Gender, DeptID, Salary, JobID)
-			VALUES  (201,'Lex', 'M', 40, 7000, 'IT_PROG'),
+	VALUES 	(201,'Lex', 'M', 40, 7000, 'IT_PROG'),
                     (202,'David','M', 20, 9000, 'MK_MAN'),
                     (203,'Leena', 'F', 20, 8000, 'MK_ASST'),
                     (204,'Bruce','M', 40, 7500, 'IT_PROG'),
