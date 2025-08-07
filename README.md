@@ -9,7 +9,9 @@ The project simulates HR and business scenarios, including department and job ma
 ## Database Structure:
 ## Tables created
 Department
+
 Job
+
 Employees
 
 ## Key features implemented:
@@ -48,4 +50,5 @@ Employees
 * Used subqueries to compare salaries dynamically
 
   ##Author
+  
   **Sowmya Sri THE DATA ANALYST**
