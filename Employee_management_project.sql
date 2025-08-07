@@ -1,19 +1,19 @@
 USE empManagement;
 CREATE TABLE Department(
-		DepartmentID   INT(3)        NOT NULL,
+	DepartmentID   INT(3)        NOT NULL,
         DepartmentName  VARCHAR(20)  NOT NULL,
         PRIMARY KEY(DepartmentID)
         );
         
 CREATE TABLE Job(
-		JobID       CHAR(7)       NOT NULL,
+	JobID       CHAR(7)       NOT NULL,
         JobTitle    VARCHAR(30)   NOT NULL,
         PRIMARY KEY(JobID)
         );
 SHOW TABLES;
 
 CREATE TABLE Employees(
-		EmpID    INT(4)      NOT NULL,
+	EmpID    INT(4)      NOT NULL,
         Name    VARCHAR(20),
         Gender  ENUM('M', 'F', 'O'),
         DeptID  INT(3),
@@ -21,8 +21,8 @@ CREATE TABLE Employees(
         JobID   CHAR(7),
         PRIMARY KEY  (EmpID),
         FOREIGN KEY  (DeptID) REFERENCES Department(DepartmentID),
-		FOREIGN KEY	(JobID)  REFERENCES Job(JobID)
-		);
+	FOREIGN KEY	(JobID)  REFERENCES Job(JobID)
+	);
         
         
         
