@@ -26,7 +26,7 @@ Employees
 - Inner and Outer Joins  
 - Nested Subqueries  
 - Limiting and Ranking (`LIMIT`)
-- - Business scenario-based queries (e.g. top earners, department analysis, job-based filtering)
+- Business scenario-based queries (e.g. top earners, department analysis, job-based filtering)
 
 ## Learning Outcomes
 -Mastery over Relational database design
